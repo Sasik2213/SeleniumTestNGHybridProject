@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-24T00:50:05 IST" name="Suite" finished-at="2023-11-24T00:50:14 IST" duration-ms="9313">
+    <groups>
+    </groups>
+    <test started-at="2023-11-24T00:50:05 IST" name="Test" finished-at="2023-11-24T00:50:14 IST" duration-ms="9313">
+      <class name="org.test.testPages.LoginPage">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:org.test.testPages.LoginPage@515c6049]" started-at="2023-11-24T00:50:09 IST" name="StartBrowser" finished-at="2023-11-24T00:50:11 IST" duration-ms="2585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="ValidCredentials()[pri:0, instance:org.test.testPages.LoginPage@515c6049]" started-at="2023-11-24T00:50:11 IST" name="ValidCredentials" finished-at="2023-11-24T00:50:12 IST" duration-ms="955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.test.testPages.LoginPage@515c6049]" started-at="2023-11-24T00:50:14 IST" name="closeBrowser" finished-at="2023-11-24T00:50:14 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.test.testPages.LoginPage -->
+      <class name="org.test.testPages.Login">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:org.test.testPages.Login@5e0e82ae]" started-at="2023-11-24T00:50:05 IST" name="StartBrowser" finished-at="2023-11-24T00:50:09 IST" duration-ms="4279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="LoginPageFunctionalites()[pri:0, instance:org.test.testPages.Login@5e0e82ae]" started-at="2023-11-24T00:50:12 IST" name="LoginPageFunctionalites" finished-at="2023-11-24T00:50:13 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageFunctionalites -->
+        <test-method signature="LoginUI()[pri:0, instance:org.test.testPages.Login@5e0e82ae]" started-at="2023-11-24T00:50:13 IST" name="LoginUI" finished-at="2023-11-24T00:50:13 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUI -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.test.testPages.Login@5e0e82ae]" started-at="2023-11-24T00:50:13 IST" name="closeBrowser" finished-at="2023-11-24T00:50:14 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.test.testPages.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
